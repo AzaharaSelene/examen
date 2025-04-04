@@ -1,0 +1,20 @@
+<!DOCTYPE html> <!--faltaba el simbolo !-->
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Generador de CSV (1000 registros)</title>
+  <link rel="stylesheet" href="./styles.css"> <!--la ubicacion del archivo era incorrecta-->
+</head> <!--no habia esta etiqueta de cierre-->
+
+<body>
+  <h1>Generar CSV con 1000 registros</h1>
+  <p>Pulsar sobre botón para generar fichero</p>
+  <!--por lo que tengo entendido en SEO es mejor poner h1,h2,h3 o usar <p> pongo este porque me parece mas visual-->
+  <button onclick="generarCSV()">Descargar CSV</button> <!--el evento onclick no estaba bien escrito ponia onclik-->
+  <!--le faltaba los () al final-->
+
+  <script src="./main.js"></script> <!-- esta linea estaba fuera de la etiqueta de cierre de html y body-->
+</body>
+
+</html>
